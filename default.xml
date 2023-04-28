@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch="https://github.com/" />
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+  <project path="uboot"
+           name="git@github.com:wt159/alientek_imx6ull_uboot.git"
+           remote="origin"
+           revision="master" />
+  <project path="rootfs"
+           name="git@github.com:wt159/alientek_imx6ull_rootfs.git"
+           remote="origin"
+           revision="master" />
+  <project path="linux"
+           name="git@github.com:wt159/alientek_imx6ull_linux.git"
+           remote="origin"
+           revision="master" />
+</manifest>
