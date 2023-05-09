@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="imx6ull"
+	  fetch="https://github.com/wt159" />
+  <default revision="master"
+           remote="imx6ull" />
+  <project
+	   name="alientek_imx6ull_rootfs"
+	   path="rootfs"
+	   remote="imx6ull"
+           revision="master" />
+</manifest>
